@@ -1,1 +1,1 @@
-# tiny-houses
+# Tiny Houses
