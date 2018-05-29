@@ -1,0 +1,109 @@
+.screen {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(-59.54deg, rgba(106, 17, 203, 1) 0%, rgba(37, 117, 252, 1) 100%);
+    color: #fff;
+}
+
+.screen .content {
+	flex-grow: 1;
+	position: relative;
+}
+
+.screen .content .heading {
+	text-transform: capitalize;
+	color: inherit;
+	line-height: 72px;
+}
+
+.screen .content .description {
+	line-height: 26px;
+}
+
+.screen .content .image-wrapper {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	height: 460px;
+	display: inherit;
+}
+
+.screen .content .image-wrapper img {
+	height: 100%;
+	display: inherit;
+}
+
+.screen .scroll-down {
+	text-transform: uppercase;
+	font-size: 12px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.screen .scroll-down .label {
+	transform: rotate(180deg);
+	writing-mode: vertical-rl;
+}
+
+.screen .scroll-down .label,
+.screen .scroll-down i {
+	opacity: .7;
+	transition: opacity .3s ease-in-out;
+}
+
+.screen .scroll-down:hover .label,
+.screen .scroll-down:hover i {
+	opacity: 1;
+}
+
+.screen .scroll-down #icon-mouse-svg {
+	width: 15px;
+	height: 23px;
+}
+
+.screen .scroll-down #icon-mouse-svg .mouse-wheel {
+	fill: #fff;
+	opacity: 0;
+	animation-name: mouse-wheel-movement;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	animation-delay: .5s;
+}
+
+.screen .scroll-down #icon-mouse-svg .mouse-outline {
+	opacity: .1;
+}
+
+@keyframes mouse-wheel-movement {
+	0% {
+		opacity: 0;
+		transform: translateY(0);
+	}
+
+	20% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	75% {
+		opacity: 1;
+	}
+
+	95% {
+		opacity: 0;
+	}
+
+	100% {
+		transform: translateY(9px);
+	}
+}
+
+.screen.r-to-l .content .image-wrapper {
+	right: 0;
+}
+
+.screen.l-to-r .content .image-wrapper {
+	right: 0;
+}

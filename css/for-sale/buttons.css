@@ -1,0 +1,26 @@
+.btn {
+	border: 0;
+	outline: 0;
+	box-shadow: none;
+	cursor: pointer;
+	line-height: 40px;
+	height: 40px;
+	min-width: 140px;
+	padding: 0 20px;
+	font-size: inherit;
+	position: relative;
+	transition: all .3s ease-in-out;
+}
+
+.btn.btn-round {
+	border-radius: 50px;
+}
+
+.btn-white {
+	background-color: #fff;
+	color: #6D89FA;
+}
+
+.btn.shadow {
+	box-shadow : 0 6px 4px rgba(0, 0, 0, 0.12), 0 12px 12px rgba(0, 0, 0, 0.12), 0 24px 24px rgba(0, 0, 0, 0.12);
+}

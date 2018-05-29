@@ -1,0 +1,14 @@
+#for-sale header {
+	margin: 0;
+}
+
+#for-sale header #logo {
+	display: block;
+	width: 35px;
+	height: 35px;
+}
+
+#for-sale header #logo img {
+	width: 100%;
+	display: block;
+}
