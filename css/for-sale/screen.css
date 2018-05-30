@@ -4,6 +4,7 @@
     height: 100vh;
     background: linear-gradient(-59.54deg, rgba(106, 17, 203, 1) 0%, rgba(37, 117, 252, 1) 100%);
     color: #fff;
+    transition: all .3s ease-in-out;
 }
 
 .screen .content {
@@ -21,18 +22,20 @@
 	line-height: 26px;
 }
 
-.screen .content .image-wrapper {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	margin: auto;
-	height: 460px;
-	display: inherit;
+.screen .content .image {
+	max-height: 70vh;
+	max-width: 100%;
 }
 
-.screen .content .image-wrapper img {
-	height: 100%;
-	display: inherit;
+@media (min-width: 1280px) {
+	.screen .content .image {
+		height: 70vh;
+		max-height: auto;
+	}
+}
+
+.screen .content .btn i {
+	margin-right: 5px;
 }
 
 .screen .scroll-down {
@@ -40,6 +43,7 @@
 	font-size: 12px;
 	text-align: center;
 	cursor: pointer;
+	padding: 0 15px;
 }
 
 .screen .scroll-down .label {
@@ -100,10 +104,31 @@
 	}
 }
 
-.screen.r-to-l .content .image-wrapper {
-	right: 0;
+.screen .controls {
+	position: absolute;
+	top: 0;
+	right: 70px;
+	bottom: 0;
+	margin: auto;
 }
 
-.screen.l-to-r .content .image-wrapper {
-	right: 0;
+.screen .controls .circle {
+	width: 12px;
+	height: 12px;
+	display: block;
+	background-color: #fff;
+	opacity: .35;
+	border-radius: 50%;
+	border: 3px solid rgba(255, 255, 255, 0);
+	cursor: pointer;
+	margin-top: 20px;
+	background-clip: padding-box;
+	transition: all .3s ease-in-out;
+}
+
+.screen .controls .circle:hover,
+.screen .controls .circle.active {
+	border: 2px solid #fff;
+	background-color: transparent;
+	opacity: 1;
 }
