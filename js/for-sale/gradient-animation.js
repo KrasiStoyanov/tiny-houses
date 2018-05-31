@@ -155,7 +155,6 @@ window.Modernizr = function(a, b, c) {
          * Populate the rgbValues and rgbSteps objects
          */
         calculateSteps: function() {
-            console.log(this.settings.gradients)
             for (var key in this.rgbValues) {
                 if (this.rgbValues.hasOwnProperty(key)) {
                     for (var i = 0; i < 3; i++) {
