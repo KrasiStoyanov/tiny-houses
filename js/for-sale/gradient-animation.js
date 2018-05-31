@@ -60,16 +60,22 @@ window.Modernizr = function(a, b, c) {
         };
 
     // The actual plugin constructor
-    function Plugin(element, options) {
+    function Gradientify (element, options) {
         this.element = element;
         this.settings = $.extend({}, defaults, options);
         this._defaults = defaults;
         this._name = pluginName;
+        this.updateSettings = function (settings) {
+            this.settings = $.extend({}, defaults, options, settings);
+
+            this.init();
+        };
+
         this.init();
     }
 
     // Avoid Plugin.prototype conflicts
-    $.extend(Plugin.prototype, {
+    $.extend(Gradientify.prototype, {
         init: function() {
             // Return if the browser does not support CSS gradients
             if (!Modernizr.cssgradients) {
@@ -84,9 +90,6 @@ window.Modernizr = function(a, b, c) {
 
             // Steps counter
             this.stepsCount = 0;
-
-            // Iterations count
-            this.iterationCount = 0;
 
             // Total amount of gradients to animate
             this.amountOfGradients = this.settings.gradients.length;
@@ -116,11 +119,13 @@ window.Modernizr = function(a, b, c) {
             this.color1 = null;
             this.color2 = null;
 
-            // Initial step calculation
-            this.calculateSteps();
+            if (this.settings.gradients.length > 0) {
+                // Initial step calculation
+                this.calculateSteps();
 
-            // Start timer
-            this.timer();
+                // Start timer
+                this.timer();
+            }
         },
 
         /**
@@ -150,6 +155,7 @@ window.Modernizr = function(a, b, c) {
          * Populate the rgbValues and rgbSteps objects
          */
         calculateSteps: function() {
+            console.log(this.settings.gradients)
             for (var key in this.rgbValues) {
                 if (this.rgbValues.hasOwnProperty(key)) {
                     for (var i = 0; i < 3; i++) {
@@ -210,11 +216,6 @@ window.Modernizr = function(a, b, c) {
 
                 // Calculate steps
                 this.calculateSteps();
-
-                if (this.gradientSwitchedCount >= this.amountOfGradients) {
-                    this.gradientSwitchedCount = 0;
-                    this.iterationCount++;
-                }
             }
         },
 
@@ -227,37 +228,27 @@ window.Modernizr = function(a, b, c) {
                 if (this.settings.iterations === 'infinite') {
                     this.updateGradient.apply(this);
                 } else {
-                    if (this.iterationCount < this.settings.iterations) {
+                    var totalAmountOfIterationsNeeded = (this.settings.iterations * this.amountOfGradients) - 1;
+                    if (this.gradientSwitchedCount < totalAmountOfIterationsNeeded) {
                         this.updateGradient.apply(this);
                     } else {
-                        this.iterationCount = 0;
+                        this.gradientSwitchedCount = 0;
 
                         clearInterval(timer);
                     }
                 }
             }.bind(this), Math.round(1000 / this.settings.fps));
         },
-
-        /**
-         * Update settings
-         *
-         * @param {obj} settings
-         */
-        update: function (settings) {
-            this.settings = settings;
-
-            this.init();
-        }
     });
 
     // A really lightweight plugin wrapper around the constructor,
     // preventing against multiple instantiations
-    $.fn[pluginName] = function(options) {
-        return this.each(function() {
-            if (!$.data(this, 'plugin_' + pluginName)) {
-                $.data(this, 'plugin_' + pluginName, new Plugin(this, options));
-            }
-        });
+    $.fn[pluginName] = function (options) {
+        if (!this.length) {
+            return this;
+        }
+
+        return new Gradientify(this, options);
     };
 
 })(jQuery, window, document);

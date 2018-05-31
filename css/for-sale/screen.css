@@ -25,6 +25,86 @@
 .screen .content .image {
 	max-height: 70vh;
 	max-width: 100%;
+	transform: translateY(0);
+}
+
+.screen .content .heading,
+.screen .content .description,
+.screen .content .btn,
+.screen .content .image {
+	transform: translateY(0);
+	transition: transform .8s cubic-bezier(0.165, 0.84, 0.44, 1), opacity .2s ease-out, visibility .2s ease-out;
+}
+
+.screen .content .fade-up {
+	transform: translateY(-50%);
+	opacity: 0;
+	visibility: hidden;
+}
+
+.screen .content .description.fade-up {
+	transition-delay: .1s;
+}
+
+.screen .content .btn.fade-up {
+	transform: translateY(-100%);
+	transition-delay: .2s;
+}
+
+.screen .content .image.fade-up {
+	transform: translateY(-15%);
+	opacity: 0;
+	visibility: hidden;
+}
+
+.screen .content .fade-down {
+	transform: translateY(50%);
+	opacity: 0;
+	visibility: hidden;
+}
+
+.screen .content .description.fade-down {
+	transition-delay: .1s;
+}
+
+.screen .content .btn.fade-down {
+	transform: translateY(100%);
+	transition-delay: .2s;
+}
+
+.screen .content .image.fade-down {
+	transform: translateY(15%);
+	opacity: 0;
+	visibility: hidden;
+}
+
+.scroll-down,
+.scroll-up {
+	transition: none;
+}
+
+.screen .content .scroll-down {
+	transform: translateY(-50%);
+}
+
+.screen .content .btn.scroll-down {
+	transform: translateY(-100%);
+}
+
+.screen .content .image.scroll-down {
+	transform: translateY(-15%);
+}
+
+.screen .content .scroll-up {
+	transform: translateY(50%);
+}
+
+.screen .content .btn.scroll-up {
+	transform: translateY(100%);
+}
+
+.screen .content .image.scroll-up {
+	transform: translateY(15%);
 }
 
 @media (min-width: 1280px) {
