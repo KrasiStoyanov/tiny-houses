@@ -1,0 +1,144 @@
+
+
+
+
+
+
+#indextitle1 {
+
+    position: absolute;
+    left: 500px;
+    padding-top: 40px;
+    font-size: 40px;
+    
+    
+}
+
+#indextitle2 {
+
+    position: absolute;
+    right: 500px;
+    padding-top: 40px;
+    font-size: 40px;
+    
+    
+}
+
+
+#housecontainer {
+padding-top: 50px;
+text-align: center;
+display: flex;
+justify-content: center;
+
+
+}
+
+#housecontainer2 {
+    
+    text-align: center;
+   
+    
+    
+    }
+
+
+    /* CSS for the house pieces*/
+
+#piece1 {
+
+  
+   
+    padding: 10px;
+    background:url(roof1empty.png) no-repeat;
+    height: 283px;
+    width: 248px;
+    display: inline-block;
+    
+
+
+    
+}
+
+
+
+#piece2 {
+
+   
+    padding: 10px;
+    background:url(roof2empty.png) no-repeat;
+    height: 360px;
+    width: 249px;
+    display: inline-block;
+  
+   
+}
+
+
+
+#piece3 {
+
+
+    margin: 0 auto;
+    padding: 10px;
+    background:url(wall1empty.png) no-repeat;
+    height: 365px;
+    width: 228px;
+    display: inline-block;
+}
+
+
+#piece4 {
+
+
+    margin: 0 auto;
+    padding: 10px;
+    background:url(wall2empty.png) no-repeat;
+    height: 365px;
+    width: 228px;
+    display: inline-block;
+}
+
+
+/* House piece hovers*/
+
+#piece1:hover {
+    
+    padding: 10px;
+    background:url(roof1hover.png) no-repeat;
+    height: 283px;
+    width: 248px;
+}
+
+#piece2:hover {
+
+    padding: 10px;
+    background:url(roof2hover.png) no-repeat;
+    height: 360px;
+    width: 249px;
+}
+
+#piece3:hover {
+
+    padding: 10px;
+    background:url(wall1hover.png) no-repeat;
+    height: 365px;
+    width: 228px;
+   
+}
+
+  
+
+#piece4:hover {
+
+    padding: 10px;
+    background:url(wall2hover.png) no-repeat;
+    height: 365px;
+    width: 228px;
+}
+
+
+
+
+
+
