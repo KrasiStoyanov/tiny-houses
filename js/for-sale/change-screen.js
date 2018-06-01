@@ -48,8 +48,9 @@ $(document).ready(function () {
 		if ($('#for-sale').hasClass('done') === true) {
 			var controlCircles = $('#for-sale .controls .circle');
 			nextScreenId = $(controlCircles).index(this);
-
-			switchScreen(this);
+			if (previousScreenId !== nextScreenId) {
+				switchScreen(this);
+			}
 		}
 	});
 	

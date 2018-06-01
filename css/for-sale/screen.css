@@ -107,7 +107,7 @@
 	transform: translateY(15%);
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1920px) {
 	.screen .content .image {
 		height: 70vh;
 		max-height: auto;
