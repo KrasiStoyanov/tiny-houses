@@ -1,0 +1,52 @@
+
+h1{
+    font-family: 'Comfortaa', cursive;
+    font-size: 36pt;
+   
+}
+
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Comfortaa', cursive; 
+    font-size: 22pt;
+    
+    
+}
+p1, p2, p3, p4, p5, p6 {
+    font-family: 'Karla', sans-serif;
+    font-size: 16pt;
+    margin-left: 100pt;
+    color: #515a5a
+} 
+body{
+    background-color: #ececec;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+}
+.header {
+    position: relative;
+    text-align: center;
+    color: #3b403e;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header-2 {
+    position: relative;
+    text-align: left;
+    color: #2c3b3e;
+    margin-left: 40pt
+}
+.left{
+    position: absolute;
+    left:16pt;
+    top: 5pt;
+}
+
