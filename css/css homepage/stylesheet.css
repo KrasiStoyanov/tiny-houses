@@ -50,7 +50,7 @@ justify-content: center;
   
    
     padding: 10px;
-    background:url(roof1empty.png) no-repeat;
+    background:url("C:/Users/Käyttäjä/Desktop/tiny-houses/homepage images/roof1empty.png") no-repeat;
     height: 283px;
     width: 248px;
     display: inline-block;
@@ -66,7 +66,7 @@ justify-content: center;
 
    
     padding: 10px;
-    background:url(roof2empty.png) no-repeat;
+    background:url("C:/Users/Käyttäjä/Desktop/tiny-houses/homepage images/roof2empty.png") no-repeat;
     height: 360px;
     width: 249px;
     display: inline-block;
@@ -81,7 +81,7 @@ justify-content: center;
 
     margin: 0 auto;
     padding: 10px;
-    background:url(wall1empty.png) no-repeat;
+    background:url("C:/Users/Käyttäjä/Desktop/tiny-houses/homepage images/wall1empty.png") no-repeat;
     height: 365px;
     width: 228px;
     display: inline-block;
@@ -93,7 +93,7 @@ justify-content: center;
 
     margin: 0 auto;
     padding: 10px;
-    background:url(wall2empty.png) no-repeat;
+    background:url("C:/Users/Käyttäjä/Desktop/tiny-houses/homepage images/wall2empty.png") no-repeat;
     height: 365px;
     width: 228px;
     display: inline-block;
@@ -105,7 +105,7 @@ justify-content: center;
 #piece1:hover {
     
     padding: 10px;
-    background:url(roof1hover.png) no-repeat;
+    background:url("C:/Users/Käyttäjä/Desktop/tiny-houses/homepage images/roof1hover.png") no-repeat;
     height: 283px;
     width: 248px;
 }
@@ -113,7 +113,7 @@ justify-content: center;
 #piece2:hover {
 
     padding: 10px;
-    background:url(roof2hover.png) no-repeat;
+    background:url("C:/Users/Käyttäjä/Desktop/tiny-houses/homepage images/roof2hover.png") no-repeat;
     height: 360px;
     width: 249px;
 }
@@ -121,7 +121,7 @@ justify-content: center;
 #piece3:hover {
 
     padding: 10px;
-    background:url(wall1hover.png) no-repeat;
+    background:url("C:/Users/Käyttäjä/Desktop/tiny-houses/homepage images/wall1hover.png") no-repeat;
     height: 365px;
     width: 228px;
    
@@ -132,7 +132,7 @@ justify-content: center;
 #piece4:hover {
 
     padding: 10px;
-    background:url(wall2hover.png) no-repeat;
+    background:url("C:/Users/Käyttäjä/Desktop/tiny-houses/homepage images/wall2hover.png") no-repeat;
     height: 365px;
     width: 228px;
 }
