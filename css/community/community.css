@@ -44,11 +44,12 @@ body{
     position: relative;
     text-align: left;
     color: white;
-    margin-left: 40pt
+    
 }
 .left{
-    position: absolute;
-    left:16pt;
+    position: relative;
+    margin-left:16pt;
+    margin-right: 16pt;
     top: 5pt;
     background-color: #6e8aff;
     padding: 10px
