@@ -30,7 +30,9 @@ body{
 .header {
     position: relative;
     text-align: center;
-    color: #3b403e;
+    color: #ececec;
+    background-color: #6e8aff;
+    padding: 20px;
 }
 .centered{
     position: absolute;
@@ -41,12 +43,22 @@ body{
 .header-2 {
     position: relative;
     text-align: left;
-    color: #2c3b3e;
+    color: white;
     margin-left: 40pt
 }
 .left{
     position: absolute;
     left:16pt;
     top: 5pt;
+    background-color: #6e8aff;
+    padding: 10px
+}
+.underHeader{
+    background-color: #3fb893;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    top: -10px;
 }
 
