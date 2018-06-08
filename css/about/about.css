@@ -22,13 +22,12 @@ div {
 p1 {
     font-family: 'Comfortaa', cursive;
     font-weight: 700;
-    padding: 50px;
-    margin-left: 170px;
+    left: 220px;
     position: relative;
     color: #eeeeee;
     text-align:center;
     font-size: 36pt;
-    top: -90px;
+    bottom: 90px;
 }
 
 h2 {
@@ -54,5 +53,9 @@ p3 {
     position: relative;
     bottom: 3580px;
     right: 60px;
+    
+}
+p4 { position: relative;
+     bottom:3550px;
     
 }
