@@ -1,13 +1,15 @@
 
 
-
-
+body {
+    font-family: Comfortaa;
+    color: white;
+}
 
 
 #indextitle1 {
 
     position: absolute;
-    left: 500px;
+    left: 490px;
     padding-top: 40px;
     font-size: 40px;
     
@@ -17,7 +19,7 @@
 #indextitle2 {
 
     position: absolute;
-    right: 500px;
+    right: 400px;
     padding-top: 40px;
     font-size: 40px;
     
@@ -28,8 +30,7 @@
 #housecontainer {
 padding-top: 50px;
 text-align: center;
-display: flex;
-justify-content: center;
+margin: auto;
 
 
 }
@@ -37,6 +38,7 @@ justify-content: center;
 #housecontainer2 {
     
     text-align: center;
+    margin: auto;
    
     
     
