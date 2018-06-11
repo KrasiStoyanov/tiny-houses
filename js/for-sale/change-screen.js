@@ -76,6 +76,12 @@ function switchOnScroll (scrollEvent) {
 		} else if (deltaY === 1) {
 			nextScreenId -= 1;
 		}
+		
+		if (nextScreenId >= $('#for-sale .controls .circle').length) {
+			nextScreenId = 0;
+		} else if (nextScreenId < 0) {
+			nextScreenId = $('#for-sale .controls .circle').length - 1;
+		}
 
 		switchActiveCircle();
 		switchScreen();
