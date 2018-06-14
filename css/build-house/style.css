@@ -1,0 +1,38 @@
+body {
+  background-color: #CBD1E9;
+  font-family: Karla;
+  color: #515A5A;
+  font-size: 16pt;
+  position: relative;
+}
+header {
+  font-family: Comfortaa;
+  font-size: 48px;
+  padding: 40px;
+  background-color: #6e8aff;
+  color: white;
+  position: relative;
+}
+.rectangle {
+  height: 30px;
+  width: 90%;
+  background-color: #3fb893;
+  margin-left: 5%;
+  position: absolute;
+  bottom: -15px;
+  left: 0px;
+}
+.main-text {
+  background-color: #ECECEC;
+  margin-top: 30px;
+}
+h1 {
+  font-family: Comfortaa;
+  font-size: 36px;
+  color: #3B403E;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+p {
+  padding : 40px;
+}
