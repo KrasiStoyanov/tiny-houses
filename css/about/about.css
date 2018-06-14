@@ -1,17 +1,21 @@
+h1, h2, h3, h4 {
+      margin-left: 40px;
+    position: relative;
+}
+
 h1 {
     padding: 80px;
-    margin-left: 40px;
     margin-right: 40px;
-    position: relative;
     background-color: #6e8aff;
+    color: #eeeeee;
 }
 
 .subheader {
     background-color: #3fb893;
     padding: 20px;
-    top: -60px;
-    margin-right: 60px;
-    margin-left:  60px;
+    bottom: 10px;
+    margin-right: 55px;
+    margin-left:  55px;
     position: relative;
 }
 
@@ -22,11 +26,43 @@ div {
 p1 {
     font-family: 'Comfortaa', cursive;
     font-weight: 700;
-    padding: 50px;
-    margin-left: 170px;
     position: relative;
     color: #eeeeee;
     text-align:center;
     font-size: 36pt;
-    top: -90px;
+    bottom: 90px;
+}
+
+h2 {
+    padding-top: 90px;
+    margin-top: 20px;
+}
+
+p2 {
+    font-size: 36pt;
+    font-family: 'Comfortaa', cursive;
+    position: relative;
+}
+
+p3 {
+   
+    font-family: 'Comfortaa', cursive;
+    position: relative;
+}
+
+p4 {
+    font-size: 20pt;
+    font-family: 'Comfortaa', cursive;
+    position: relative;
+}
+
+.box1 {
+     height: 3644px;
+     background-color: #fbfbfb;
+     margin-left: 40px;
+     margin-right: 40px;
+}
+
+h4 {
+     margin-right: 40px;
 }
