@@ -13,6 +13,14 @@ header {
   color: white;
   position: relative;
 }
+.icon-container {
+  height: 100px;
+  width: 100px;
+  background-color: #4963CE;
+  position: relative;
+
+  display: inline-block;
+}
 .rectangle {
   height: 30px;
   width: 90%;
@@ -25,8 +33,17 @@ header {
 .main-text {
   background-color: #ECECEC;
   margin-top: 30px;
+  padding-bottom: 30px;
 }
 h1 {
+  font-family: Comfortaa;
+  font-size: 48px;
+  color: #ECECEC;
+  position: absolute;
+  padding-left: 20px;
+  display: inline-block;
+}
+h2 {
   font-family: Comfortaa;
   font-size: 36px;
   color: #3B403E;
@@ -34,5 +51,6 @@ h1 {
   padding-left: 10px;
 }
 p {
-  padding : 40px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
