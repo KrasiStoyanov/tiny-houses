@@ -51,15 +51,14 @@ h2 {
   font-family: Comfortaa;
   font-size: 36px;
   color: #3B403E;
-  padding-top: 10px;
-  padding-left: 10px;
+  padding-top: 30px;
 }
 
 .accordion {
     font-family: Karla;
-    font-size: 14px;
-    background-color: #eee;
-    color: #444;
+    font-size: 16px;
+    background-color: #6e8aff;
+    color: #ECECEC;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -69,16 +68,15 @@ h2 {
     transition: 0.4s;
 }
 .active, .accordion:hover {
-    background-color: #ccc;
+    background-color: #9eb0ff;
 }
 
 .panel {
     font-family: Karla;
-    font-size: 14px;
+    font-size: 16px;
     padding: 0 18px;
-    background-color: white;
+    margin: 10px;
     max-height: 0;
-    display: none;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
