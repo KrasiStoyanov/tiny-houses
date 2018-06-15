@@ -31,9 +31,13 @@ header {
   left: 0px;
 }
 .main-text {
+
+  font-size: 14px;
   background-color: #ECECEC;
   margin-top: 30px;
   padding-bottom: 30px;
+  padding-left: 60px;
+  padding-right: 60px
 }
 h1 {
   font-family: Comfortaa;
@@ -50,7 +54,31 @@ h2 {
   padding-top: 10px;
   padding-left: 10px;
 }
-p {
-  padding-left: 60px;
-  padding-right: 60px;
+
+.accordion {
+    font-family: Karla;
+    font-size: 14px;
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    font-family: Karla;
+    font-size: 14px;
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
 }
