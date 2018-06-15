@@ -21,6 +21,7 @@ p1, p2, p3, p4, p5, p6 {
 body{
     background-color: #ececec;
 }
+
 .center {
     display: block;
     margin-left: auto;
@@ -49,7 +50,7 @@ body{
 .left{
     position: relative;
     margin-left:16pt;
-    margin-right: 16pt;
+    width: 95.3%;
     top: 5pt;
     background-color: #6e8aff;
     padding: 10px
@@ -61,5 +62,38 @@ body{
     margin-right: 20px;
     position: relative;
     top: -10px;
+}
+.accordion{
+ cursor:pointer;
+ width: 98%;
+ position: relative;
+ margin-left:16pt;
+ background-color: #6e8aff;
+ padding: 10px;
+ border: none;
+ outline: none;
+ transition: 0.4s;
+ 
+
+
+}
+.panel{
+    padding:  18px;
+    background-color:#ececec;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-family: 'Karla', sans-serif;
+    font-size: 16pt;
+    margin-left: 100pt;
+    color: #515a5a
+}
+button{
+    font-family: 'Comfortaa', cursive; 
+    font-size: 22pt;
+    text-align: left;
+    top:10px;
+    color: white;
+
 }
 

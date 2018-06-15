@@ -1,9 +1,12 @@
-h1, h2, h3, h4 {
-      margin-left: 40px;
-    position: relative;
+body{
+    background-color: #ececec;
+    }
+h2, h3, h5, {
+    margin-left: 40px;
 }
 
 h1 {
+    margin-left: 40px;
     padding: 80px;
     margin-right: 40px;
     background-color: #6e8aff;
@@ -23,46 +26,52 @@ div {
     display: block;
 }
 
-p1 {
-    font-family: 'Comfortaa', cursive;
-    font-weight: 700;
-    position: relative;
-    color: #eeeeee;
-    text-align:center;
-    font-size: 36pt;
-    bottom: 90px;
-}
-
 h2 {
-    padding-top: 90px;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-left: 40px;
 }
 
-p2 {
-    font-size: 36pt;
-    font-family: 'Comfortaa', cursive;
-    position: relative;
+h3 {
+    margin-top: 10px;
+    margin-left: 40px;
 }
 
-p3 {
-   
-    font-family: 'Comfortaa', cursive;
-    position: relative;
-}
-
-p4 {
-    font-size: 20pt;
-    font-family: 'Comfortaa', cursive;
-    position: relative;
-}
-
-.box1 {
-     height: 3644px;
+.box1, .box2, .box3 {
+     margin-top: 40px;
      background-color: #fbfbfb;
      margin-left: 40px;
      margin-right: 40px;
 }
 
-h4 {
-     margin-right: 40px;
+p {
+    margin-left: 40px;
+    margin-right: 80px;
 }
+
+
+h5 { 
+    font-size: 38px;
+}
+
+    
+}
+input[type=button] {
+    height: 38px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #eeeeee;
+}
+
+#submission input[type="email"], #submission input[type="text"]  {
+    margin-left: 40px;
+}
+#submission input[type="radio"] {
+    margin-left: 40px;
+}
+
+input[name="DOBDay"], input[name="DOBMonth"], input[name="DOBYear"] {
+    margin-left: 40px;
+}
+#form
