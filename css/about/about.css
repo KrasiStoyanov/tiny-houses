@@ -36,7 +36,7 @@ h3 {
     margin-left: 40px;
 }
 
-.box1 {
+.box1, .box2, .box3 {
      margin-top: 40px;
      background-color: #fbfbfb;
      margin-left: 40px;
@@ -48,12 +48,30 @@ p {
     margin-right: 80px;
 }
 
-.box2 {
-     margin-top: 40px;
-     background-color: #fbfbfb;
-     margin-left: 40px;
-     margin-right: 40px;
-}
+
 h5 { 
     font-size: 38px;
 }
+
+    
+}
+input[type=button] {
+    height: 38px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #eeeeee;
+}
+
+#submission input[type="email"], #submission input[type="text"]  {
+    margin-left: 40px;
+}
+#submission input[type="radio"] {
+    margin-left: 40px;
+}
+
+input[name="DOBDay"], input[name="DOBMonth"], input[name="DOBYear"] {
+    margin-left: 40px;
+}
+#form
