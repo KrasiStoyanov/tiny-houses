@@ -1,53 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Comfortaa:700|Karla:400,400i,700,700i" rel="stylesheet">
-	<link rel="stylesheet" href="../css/initial.css">
-	<link rel="stylesheet" href="../css/icon-font.css">
-	<link rel="stylesheet" href="../css/bootstrap-grid.css">
-	<link rel="stylesheet" href="../css/spacing.css">
-	<link rel="stylesheet" href="../css/for-sale/header.css">
-	<link rel="stylesheet" href="../css/for-sale/screen.css">
-	<link rel="stylesheet" href="../css/for-sale/buttons.css">
-	<title>Tiny Houses - For Sale</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700|Karla:400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="../css/initial.css">
+    <link rel="stylesheet" href="../css/icon-font.css">
+    <link rel="stylesheet" href="../css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../css/spacing.css">
+    <link rel="stylesheet" href="../css/for-sale/header.css">
+    <link rel="stylesheet" href="../css/for-sale/screen.css">
+    <link rel="stylesheet" href="../css/for-sale/buttons.css">
+    <link rel="stylesheet" href="../css/for-sale/modal.css">
+    <title>Tiny Houses - For Sale</title>
 </head>
+
 <body>
-	<div id="for-sale" class="screen done r-to-l">
-		<header class="pt-7">
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<a href="#" id="logo"><img src="../images/for-sale/logo.svg" alt="Logo"></a>
-					</div>
-				</div>
-			</div>
-		</header>
-		<div class="content d-flex flex-direction-row align-items-center">
-			<div class="container p-xl-0 pr-0">
-				<div class="row align-items-center mr-0">
-					<div class="col-sm-4 content-wrapper">
-						<h1 class="heading">Tiny house for sale</h1>
-						<p class="mt-5 mb-5 description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget est turpis. Duis ultricies odio id neque dignissim, non lacinia mi laoreet. Vestibulum a finibus leo.</p>
-						<button class="btn btn-white btn-round shadow">
-							<strong class="normal">$48,000</strong>
-							<strong class="hover">
+    <div id="for-sale" class="screen done r-to-l">
+        <header class="pt-7">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <a id="logo"><img src="../images/logo-01.png" alt="Logo"></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="content d-flex flex-direction-row align-items-center">
+            <div class="container p-xl-0 pr-0">
+                <div class="row align-items-center mr-0">
+                    <div class="col-sm-4 content-wrapper">
+                        <h1 class="heading">The big one</h1>
+                        <p class="mt-5 mb-5 description">One of our most purchased tiny houses that comes with the spacious 13 square meters.</p>
+                        <button class="btn btn-white btn-round shadow">
+                            <strong class="normal">$18,000</strong>
+                            <strong class="hover">
 								<i class="icon-shopping-cart"></i>
 								Buy now
 							</strong>
-						</button>
-					</div>
-					<div class="col-sm-7 offset-1 pr-0 text-right image-wrapper">
-						<img class="image" src="../images/for-sale/3d-house-1.svg" alt="3D Tiny House 1">
-					</div>
-				</div>
-			</div>
-		</div>
-		<footer class="pb-7">
-			<div class="container">
-				<div class="row">
-					<a class="scroll-down d-flex flex-column">
+                        </button>
+                    </div>
+                    <div class="col-sm-7 offset-1 pr-0 text-right image-wrapper">
+                        <img class="image" src="../images/for-sale/3d-house-1.svg" alt="3D Tiny House 1">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="pb-7">
+            <div class="container">
+                <div class="row">
+                    <a class="scroll-down d-flex flex-column">
 						<span class="label mb-1">scroll</span>
 						<svg id="icon-mouse-svg" viewBox="0 0 15 22.5">
 							<g class="icon-mouse">
@@ -59,19 +62,46 @@
 						</svg>
 						<i class="icon-arrow-down mt-1"></i>
 					</a>
-				</div>
-			</div>
-		</footer>
-		<div class="controls d-flex flex-column align-items-center justify-content-center">
-			<div class="circle active"></div>
-			<div class="circle"></div>
-			<div class="circle"></div>
-		</div>
-	</div>
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-	<script src="../js/for-sale/gradient-animation.js"></script>
-	<script src="../js/for-sale/underscore-min.js"></script>
-	<script src="../js/for-sale/jquery.mousewheel.js"></script>
-	<script src="../js/for-sale/change-screen.js"></script>
+                </div>
+            </div>
+        </footer>
+        <div class="controls d-flex flex-column align-items-center justify-content-center">
+            <div class="circle active"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+    <div id="navigation-menu" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div id="housecontainer">
+                    <a href="./about.html">
+                        <div id="piece1"> </div>
+                    </a>
+                    <a href="./for-sale.html">
+                        <div id="piece2"> </div>
+                    </a>
+                </div>
+                <div id="housecontainer2">
+                    <a href="./faq.html">
+                        <div id="piece3"> </div>
+                    </a>
+                    <a href="./comunity.html">
+                        <div id="piece4"> </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="../js/for-sale/gradient-animation.js"></script>
+    <script src="../js/for-sale/underscore-min.js"></script>
+    <script src="../js/for-sale/jquery.mousewheel.js"></script>
+    <script src="../js/for-sale/change-screen.js"></script>
+    <script src="../js/for-sale/navigation-menu.js"></script>
 </body>
+
 </html>

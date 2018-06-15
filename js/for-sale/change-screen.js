@@ -5,21 +5,21 @@ var GRADIENTS = [
 ];
 
 var HEADINGS = [
-	'Tiny house for sale',
-	'Tiny house 2 for sale',
-	'Tiny house 3 for sale'
+	'The big one',
+	'The premium one',
+	'A celebrity\'s best choice'
 ];
 
 var DESCRIPTIONS = [
-	'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget est turpis. Duis ultricies odio id neque dignissim, non lacinia mi laoreet. Vestibulum a finibus leo.',
-	'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget est turpis. Duis ultricies odio id neque dignissim, non lacinia mi laoreet. Vestibulum a finibus leo.',
-	'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget est turpis. Duis ultricies odio id neque dignissim, non lacinia mi laoreet. Vestibulum a finibus leo.'
+	'One of our most purchased tiny houses that comes with the spacious 13 square meters.',
+	'This is a limited series of tiny houses, specifically designed for the customer\'s needs.',
+	'Are you a celebrity that seeks adventures? Then this is the right product for you - a spacious and beautifully designed tiny house.'
 ];
 
 var PRCIES = [
-	'$48,000',
-	'$150,000',
-	'$350,000'
+	'$18,000',
+	'$40,000',
+	'$110,000'
 ];
 
 var IMAGE_URLS = [
