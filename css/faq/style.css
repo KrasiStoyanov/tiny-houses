@@ -5,6 +5,7 @@ body {
   font-size: 16pt;
   position: relative;
 }
+/* USE THIS HEADER */
 header {
   font-family: Comfortaa;
   font-size: 48px;
@@ -31,6 +32,8 @@ header {
   bottom: -15px;
   left: 0px;
 }
+/*USE THE ABOVE*/
+
 .main-text {
 
   font-size: 14px;
@@ -81,39 +84,44 @@ h2 {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
-/* The Modal (background) */
+#myBtn {
+    background-color: transparent;
+    border: none;
+    display: inline-block;
+}
+
+/*STYLING FOR THE OVERLAY GOES HERE*/
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    display: none;
+    position: fixed;
+    z-index: 1;
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
 }
 
-/* Modal Content/Box */
+.modal-body {padding: 2px 16px;}
+
+/* STYLING FOR THE CONTENT OF THE OVERLAY GOES HERE!!*/
 .modal-content {
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    position: relative;
+    background-color: #000000;
+    margin: auto;
+    padding: 0;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
 }
 
-/* The Close Button */
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
+/* Add Animation */
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
 }
 footer {
   text-align: center;
