@@ -44,6 +44,20 @@ $(document).ready(function () {
 		iterations: 1
 	});
 
+	$('#for-sale .scroll-down').click(function () {
+		if ($('#for-sale').hasClass('done') === true) {
+			if (previousScreenId + 1 >= HEADINGS.length) {
+				nextScreenId = 0;
+			} else {
+				nextScreenId = previousScreenId + 1;
+			}
+
+			if (previousScreenId !== nextScreenId) {
+				switchScreen(this);
+			}
+		}
+	});
+
 	$('#for-sale .controls .circle').click(function () {
 		if ($('#for-sale').hasClass('done') === true) {
 			var controlCircles = $('#for-sale .controls .circle');
