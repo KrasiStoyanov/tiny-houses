@@ -50,7 +50,7 @@ body{
 .left{
     position: relative;
     margin-left:16pt;
-    margin-right: 16pt;
+    width: 95.3%;
     top: 5pt;
     background-color: #6e8aff;
     padding: 10px
@@ -65,20 +65,20 @@ body{
 }
 .accordion{
  cursor:pointer;
- width: 100%;
+ width: 98%;
  position: relative;
  margin-left:16pt;
- margin-right: 16pt;
  background-color: #6e8aff;
  padding: 10px;
  border: none;
  outline: none;
  transition: 0.4s;
+ 
 
 
 }
 .panel{
-    padding: 0 18px;
+    padding:  18px;
     background-color:#ececec;
     max-height: 0;
     overflow: hidden;
@@ -92,6 +92,7 @@ button{
     font-family: 'Comfortaa', cursive; 
     font-size: 22pt;
     text-align: left;
+    top:10px;
     color: white;
 
 }
