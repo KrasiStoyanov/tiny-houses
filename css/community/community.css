@@ -73,7 +73,11 @@ body{
  border: none;
  outline: none;
  transition: 0.4s;
- 
+ font-family: 'Comfortaa', cursive; 
+    font-size: 22pt;
+    text-align: left;
+    top:10px;
+    color: white;
 
 
 }
@@ -88,12 +92,5 @@ body{
     margin-left: 100pt;
     color: #515a5a
 }
-button{
-    font-family: 'Comfortaa', cursive; 
-    font-size: 22pt;
-    text-align: left;
-    top:10px;
-    color: white;
 
-}
 
