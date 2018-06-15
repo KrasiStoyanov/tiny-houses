@@ -1,6 +1,8 @@
-h1, h2, h3, h4 {
-      margin-left: 40px;
-    position: relative;
+body{
+    background-color: #ececec;
+    }
+h1, h2, h3, h5, h8 {
+    margin-left: 40px;
 }
 
 h1 {
@@ -23,46 +25,49 @@ div {
     display: block;
 }
 
-p1 {
-    font-family: 'Comfortaa', cursive;
-    font-weight: 700;
-    position: relative;
-    color: #eeeeee;
-    text-align:center;
-    font-size: 36pt;
-    bottom: 90px;
-}
 
 h2 {
-    padding-top: 90px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
-p2 {
-    font-size: 36pt;
-    font-family: 'Comfortaa', cursive;
-    position: relative;
-}
-
-p3 {
-   
-    font-family: 'Comfortaa', cursive;
-    position: relative;
-}
-
-p4 {
-    font-size: 20pt;
-    font-family: 'Comfortaa', cursive;
-    position: relative;
+h3 {
+    margin-top: 10px;
 }
 
 .box1 {
-     height: 3644px;
+     margin-top: 40px;
      background-color: #fbfbfb;
      margin-left: 40px;
      margin-right: 40px;
 }
 
-h4 {
+p {
+    margin-left: 40px;
+    margin-right: 80px;
+}
+h7 {
+    position: relative;
+    font-family: 'Karlaa', sans-serif;
+    font-weight: 700;
+    color: #515A5A;
+    margin-left: 40px;
+    font-size: 22px;
+}
+
+.box2 {
+     margin-top: 40px;
+     background-color: #fbfbfb;
+     margin-left: 40px;
      margin-right: 40px;
+}
+h5 { 
+    font-size: 38px;
+}
+
+h8 {
+    font-size: 38px;
+    color: #2C3B3E;
+    padding-top: 20px;
+    position: relative;
+    
 }
