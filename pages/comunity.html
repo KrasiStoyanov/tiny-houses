@@ -6,24 +6,51 @@
         <link rel="stylesheet" type="text/css" href="../css/community/community.css">
         <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
-       
+
         <title>Community Teeny Tiny Houses</title>
     </head>
     <body>
-            
-        <div class="header">
-            <h1>Community</h1>
+
+      <!–USE THIS header–>
+      <header>
+        <div class = "dot">
+          <button id="myBtn"><img src="../images/logo-01.png" style="display: block; margin-left: 15px; margin-top: 15px; width: 80px; height: 80px;">
+          </button>
+          <div id="myModal" class="modal">
+            <<!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close">&times;</span>
+              </div>
+              <div class="modal-body">
+                <!–HTML CONTENT OF THE OVERLAY GOES HERE (THE NAVIGATION)–>
+                <div id="housecontainer">
+                  <a href="../pages/about.html"> <div id="piece1"> </div> </a>
+                  <a href="../pages/for-sale.html">	<div id="piece2"> </div>  </a>
+                </div>
+
+                <div id="housecontainer2">
+                  <a href="../pages/faq.html"> <div id="piece3"> </div> </a>
+                  <a href="../pages/comunity.html"> <div id="piece4"> </div> </a>
+              </div>
+
+              </div>
             </div>
-        <div class="underHeader"> </div>
+          </div>
+        </div>
+        <h1>Tiny Houses</h1>
+      <div class = "rectangle"> </div>
+      </header>
+    <!–USE THE ABOVE –>
         <p1>
 
         </p1>
         <h2>
-            <button class ="accordion">Community Map</button> 
+            <button class ="accordion">Community Map</button>
             <div class= "panel">
-                    
+
             </div>
-           
+
         </h2>
 
         <p2>
@@ -31,36 +58,37 @@
         </p2>
         <h3>
             <div class= "header-2">
-                
+
                 <button class ="accordion">Community Events</button>
                  <div class= "panel">
-            
+
                     <ul style="list-style-type:disc">
                         <li>06-18 Tiny House Community Meetup</li>
                         <li>06-25 Tiny House Planning Lecture</li>
                         <li>06-31 Tiny Whatever</li>
                     </ul>
                 </div>
-        
+
 
         <button class= "accordion">Community Forums</button>
         <div class="panel">
-            <p>placeholder text</p>  
+            <p>placeholder text</p>
         </div>
-        
-        
-        
-        
-            
-        
+
+
+
+
+
+
         <button class= "accordion">Tiny House Community</button>
         <div class="panel">
-            <p>placeholder text</p>  
+            <p>placeholder text</p>
         </div>
         <button class= "accordion">Usefull Information</button>
         <div class="panel">
-            <p>placeholder text</p>  
+            <p>placeholder text</p>
         </div>
         <script src="../js/community/dropdown.js"> </script>
+        <script type="text/javascript" src = "../js/modal.js"></script>
     </body>
 </html>

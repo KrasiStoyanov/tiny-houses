@@ -109,7 +109,7 @@ h2 {
 /* STYLING FOR THE CONTENT OF THE OVERLAY GOES HERE!!*/
 .modal-content {
     position: relative;
-    background-color: #000000;
+    background:url("../../images/homepage-images/bgindex.png");
     margin: auto;
     padding: 0;
     width: 80%;
@@ -123,7 +123,83 @@ h2 {
     from {top: -300px; opacity: 0}
     to {top: 0; opacity: 1}
 }
+
+
+#housecontainer {
+text-align: center;
+margin: auto;
+}
+
+#housecontainer2 {
+    padding-bottom: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+#piece1 {
+    padding: 10px;
+    background:url("../../images/homepage-images/roof1empty.png") no-repeat;
+    height: 283px;
+    width: 248px;
+    display: inline-block;
+}
+
+#piece2 {
+    padding: 10px;
+    background:url("../../images/homepage-images/roof2empty.png") no-repeat;
+    height: 360px;
+    width: 249px;
+    display: inline-block;
+}
+
+#piece3 {
+    margin: 0 auto;
+    padding: 10px;
+    background:url("../../images/homepage-images/wall1empty.png") no-repeat;
+    height: 365px;
+    width: 228px;
+    display: inline-block;
+}
+
+#piece4 {
+    margin: 0 auto;
+    padding: 10px;
+    background:url("../../images/homepage-images/wall2empty.png") no-repeat;
+    height: 365px;
+    width: 228px;
+    display: inline-block;
+}
+
+/* House piece hovers*/
+
+#piece1:hover {
+    padding: 10px;
+    background:url("../../images/homepage-images/roof1hover.png") no-repeat;
+    height: 283px;
+    width: 248px;
+}
+#piece2:hover {
+
+    padding: 10px;
+    background:url("../../images/homepage-images/roof2hover.png") no-repeat;
+    height: 360px;
+    width: 249px;
+}
+#piece3:hover {
+    padding: 10px;
+    background:url("../../images/homepage-images/wall1hover.png") no-repeat;
+    height: 365px;
+    width: 228px;
+}
+#piece4:hover {
+    padding: 10px;
+    background:url("../../images/homepage-images/wall2hover.png") no-repeat;
+    height: 365px;
+    width: 228px;
+}
+
+
 footer {
-  text-align: center;
-  font-size: 14px;
+    text-align: center;
+    font-size: 14px;
 }
