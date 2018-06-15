@@ -52,7 +52,7 @@ margin: auto;
   
    
     padding: 10px;
-    background:url("./images/homepage images/roof1empty.png") no-repeat;
+    background:url("./images/homepage-images/roof1empty.png") no-repeat;
     height: 283px;
     width: 248px;
     display: inline-block;
@@ -68,7 +68,7 @@ margin: auto;
 
    
     padding: 10px;
-    background:url("./images/homepage images/roof2empty.png") no-repeat;
+    background:url("./images/homepage-images/roof2empty.png") no-repeat;
     height: 360px;
     width: 249px;
     display: inline-block;
@@ -83,7 +83,7 @@ margin: auto;
 
     margin: 0 auto;
     padding: 10px;
-    background:url("./images/homepage images/wall1empty.png") no-repeat;
+    background:url("./images/homepage-images/wall1empty.png") no-repeat;
     height: 365px;
     width: 228px;
     display: inline-block;
@@ -95,7 +95,7 @@ margin: auto;
 
     margin: 0 auto;
     padding: 10px;
-    background:url("./images/homepage images/wall2empty.png") no-repeat;
+    background:url("./images/homepage-images/wall2empty.png") no-repeat;
     height: 365px;
     width: 228px;
     display: inline-block;
@@ -107,7 +107,7 @@ margin: auto;
 #piece1:hover {
     
     padding: 10px;
-    background:url("./images/homepage images/roof1hover.png") no-repeat;
+    background:url("./images/homepage-images/roof1hover.png") no-repeat;
     height: 283px;
     width: 248px;
 }
@@ -115,7 +115,7 @@ margin: auto;
 #piece2:hover {
 
     padding: 10px;
-    background:url("./images/homepage images/roof2hover.png") no-repeat;
+    background:url("./images/homepage-images/roof2hover.png") no-repeat;
     height: 360px;
     width: 249px;
 }
@@ -123,7 +123,7 @@ margin: auto;
 #piece3:hover {
 
     padding: 10px;
-    background:url("./images/homepage images/wall1hover.png") no-repeat;
+    background:url("./images/homepage-images/wall1hover.png") no-repeat;
     height: 365px;
     width: 228px;
    
@@ -134,11 +134,10 @@ margin: auto;
 #piece4:hover {
 
     padding: 10px;
-    background:url("./images/homepage images/wall2hover.png") no-repeat;
+    background:url("./images/homepage-images/wall2hover.png") no-repeat;
     height: 365px;
     width: 228px;
 }
-
 
 
 
