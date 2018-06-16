@@ -22,7 +22,7 @@
 	line-height: 26px;
 }
 
-.screen .content .image-wrapper.text-left {
+.screen .content .image-wrapper.text-left img {
 	transform: scaleX(-1);
     filter: FlipH;
 }
