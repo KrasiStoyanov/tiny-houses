@@ -1,0 +1,11 @@
+@media (min-width: 1280px) {
+    .container {
+        max-width: 70%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+#for-sale .white img {
+	border: 1px solid #eee;
+}
