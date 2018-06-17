@@ -17,6 +17,9 @@ h2, h3, h5, {
     margin-left: 40px;
 }
 
+
+
+
 /* USE THIS HEADER */
 header {
   font-family: Comfortaa;
@@ -159,7 +162,7 @@ margin: auto;
     width: 228px;
 }
 
-div {
+div > p {
     display: block;
 }
 
@@ -171,6 +174,7 @@ h2 {
 h3 {
     margin-top: 10px;
     margin-left: 10px;
+    
 }
 
 .box1, .box2, .box3 {
@@ -194,20 +198,14 @@ h5 {
 
 
 }
-input[type=button] {
-    height: 38px;
-    background: #e8491d;
-    border: 0;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #eeeeee;
-}
+
 
 #submission input[type="email"], #submission input[type="text"]  {
-    margin-left: 40px;
+    margin-left: 0.5%;
 }
 #submission input[type="radio"] {
-    margin-left: 40px;
+    margin-left: 1%;
+    margin-bottom: 20px;
 }
 
 input[name="DOBDay"], input[name="DOBMonth"], input[name="DOBYear"] {
@@ -221,7 +219,42 @@ input[name="DOBDay"], input[name="DOBMonth"], input[name="DOBYear"] {
     width: 60%;
     padding:20px;
 }
-#form
-.center{
+#form {}
+input[type=text], select{
+    margin-left: 10px;
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+} 
+input[type=email], select{
+  margin-left: 10px;
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
 
+input[type=submit], select{
+    margin-left: 10px;
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button {
+    height: 38px;
+    background: #4963CE;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #eeeeee;
+    font-size: 20px;
 }
