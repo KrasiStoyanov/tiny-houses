@@ -11,6 +11,12 @@
     background-color: rgba(0, 0, 0, 0.4);
 }
 
+.modal *,
+.modal *::before,
+.modal *::after {
+    box-sizing: border-box;
+}
+
 .modal-body {
     padding: 2px 16px;
 }
@@ -20,7 +26,7 @@
 
 .modal-content {
     position: relative;
-    background: url("../../images/homepage-images/bgindex.png");
+    background: url("../images/homepage-images/bgindex.png");
     margin: auto;
     padding: 0;
     height: 100%;
@@ -70,7 +76,7 @@
 
 #piece1 {
     padding: 10px;
-    background: url("../../images/homepage-images/roof1empty.png") no-repeat;
+    background: url("../images/homepage-images/roof1empty.png") no-repeat;
     height: 283px;
     width: 248px;
     display: inline-block;
@@ -78,7 +84,7 @@
 
 #piece2 {
     padding: 10px;
-    background: url("../../images/homepage-images/roof2empty.png") no-repeat;
+    background: url("../images/homepage-images/roof2empty.png") no-repeat;
     height: 360px;
     width: 249px;
     display: inline-block;
@@ -87,7 +93,7 @@
 #piece3 {
     margin: 0 auto;
     padding: 10px;
-    background: url("../../images/homepage-images/wall1empty.png") no-repeat;
+    background: url("../images/homepage-images/wall1empty.png") no-repeat;
     height: 365px;
     width: 228px;
     display: inline-block;
@@ -96,7 +102,7 @@
 #piece4 {
     margin: 0 auto;
     padding: 10px;
-    background: url("../../images/homepage-images/wall2empty.png") no-repeat;
+    background: url("../images/homepage-images/wall2empty.png") no-repeat;
     height: 365px;
     width: 228px;
     display: inline-block;
@@ -107,7 +113,7 @@
 
 #piece1:hover {
     padding: 10px;
-    background: url("../../images/homepage-images/roof1hover.png") no-repeat;
+    background: url("../images/homepage-images/roof1hover.png") no-repeat;
     height: 283px;
     width: 248px;
 }
@@ -115,21 +121,21 @@
 #piece2:hover {
 
     padding: 10px;
-    background: url("../../images/homepage-images/roof2hover.png") no-repeat;
+    background: url("../images/homepage-images/roof2hover.png") no-repeat;
     height: 360px;
     width: 249px;
 }
 
 #piece3:hover {
     padding: 10px;
-    background: url("../../images/homepage-images/wall1hover.png") no-repeat;
+    background: url("../images/homepage-images/wall1hover.png") no-repeat;
     height: 365px;
     width: 228px;
 }
 
 #piece4:hover {
     padding: 10px;
-    background: url("../../images/homepage-images/wall2hover.png") no-repeat;
+    background: url("../images/homepage-images/wall2hover.png") no-repeat;
     height: 365px;
     width: 228px;
 }
